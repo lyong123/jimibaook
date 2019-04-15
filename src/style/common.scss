@@ -1,0 +1,28 @@
+
+$background-color: #e7e7e7;
+$item-color:#fff;
+$font-color:#333;
+$font-light-color:#000;
+$buttom-color:#f6d669;
+$buttom-font-color:#403726;
+$icon-color:#e47c23;
+
+$font-size: 14px;
+
+$router-z-index:10;
+$header-z-index: 5;
+$navbar-z-index:3;
+
+.icon {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.router-view-class {
+  width:100vw;
+  position: absolute;
+  z-index: $router-z-index;
+}
